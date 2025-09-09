@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Ayomide 🎉</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Balloons -->
+    <div class="balloon b1"></div>
+    <div class="balloon b2"></div>
+    <div class="balloon b3"></div>
+    <div class="balloon b4"></div>
+    <div class="balloon b5"></div>
+
+    <!-- Container -->
+    <div class="container">
+        <h1>🎂 Happy Birthday 🎂</h1>
+        <h2>Ayomide 🎉</h2>
+        <p>Wishing you a day filled with love, laughter, and endless happiness! 🥳🎁</p>
+
+        <!-- Slideshow -->
+        <div class="slideshow">
+            <img src="images/pic1.jpg" class="slide active">
+            <img src="images/pic2.jpg" class="slide">
+            <img src="images/pic3.jpg" class="slide">
+        </div>
+
+        <!-- Countdown -->
+        <div id="countdown"></div>
+
+        <!-- Music Button -->
+        <button id="musicBtn">🎵 Play Birthday Song</button>
+
+        <!-- Guest Book -->
+        <div class="guestbook">
+            <h3>💌 Leave a Birthday Wish</h3>
+            <form id="wishForm">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <textarea id="message" placeholder="Your Wish" required></textarea>
+                <button type="submit">Send Wish</button>
+            </form>
+            <div id="wishesList"></div>
+        </div>
+    </div>
+
+    <!-- Confetti -->
+    <canvas id="confetti"></canvas>
+
+    <!-- Popup Message -->
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <h2>🎉 Happy Birthday Ayomide! 🎉</h2>
+            <p>You are loved, cherished, and celebrated today! 💖</p>
+            <button id="closePopup">Close</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
